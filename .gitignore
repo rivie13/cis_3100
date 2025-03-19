@@ -68,7 +68,7 @@ coverage.xml
 .env
 .env.local
 .env.*.local
-
+*.pem
 # Model files and data
 *.h5
 *.pkl
@@ -87,6 +87,7 @@ runs/
 
 # Gradio
 gradio/
+.gradio/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -98,3 +99,4 @@ flagged/
 
 # any directory or subdirectory named data
 data/
+faiss_index/
